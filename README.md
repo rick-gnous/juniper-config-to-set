@@ -3,7 +3,6 @@ Converts Juniper Networks configurations to a series of set commands
 
 Parser in PHP by Tim Price, rewrite in Python with enhancements by rick@gnous.eu
 
-Use `cli.py` to parse a Juniper configuration file to a series of set commands.
-Use `gui.cly` to enter a text.
+First, install PyQt with `pip3 install -r requirements.txt`. You can juste type `python3 gui.py` to open the program and enter text !
 
-Requirements : PyQt
+If you want parse a file, use `python3 cli.py -f file`. 
