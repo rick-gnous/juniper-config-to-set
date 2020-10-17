@@ -5,15 +5,21 @@
     <title>Parser Juniper</title>
 </head>
 <body>
-    <form action="">
-        <textarea id="input" name="inputConf" cols="30" rows="10"></textarea>
-        <textarea id="output" name="outputConf" cols="30" rows="10" disabled></textarea>
+    <form>
+        <textarea id="input" name="inputConf" cols="90" rows="50"></textarea>
+        <textarea id="output" name="outputConf" cols="90" rows="50" disabled></textarea>
         <input type="button" onClick="letsParse()" value="Parse !">
     </form>
-    <script src="parser.js"></script>
-    <script src="changeDom.js"></script>
 
     <h2>Informations</h2>
-
+    <h3>Authors</h3>
+    <p>Tim Price writed a PHP script to convert Juniper conf to a series of set commands. You can find it on <a href="https://github.com/pgnuta/juniper-config-to-set">this github</a>. I just rewrite it in JS and add an interface. You can find the source code on <a href="https://github.com/rick-gnous/juniper-config-to-set/tree/implWeb">this github</a>.</p>
+    <h3>Contact</h3>
+    <p>My email address : <code>rick@gnous.eu</code></p>
+    <p>My Github page : <a href="https://github.com/rick-gnous">here we go</a></p>
+    <h3>About the code</h3>
+    <p>All the code is under <a href="https://www.gnu.org/licenses/gpl-3.0.fr.html">GPL3 licence</a>.</p>
+    <script src="parser.js"></script>
+    <script src="changeDom.js"></script>
 </body>
 </html>
